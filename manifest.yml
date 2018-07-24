@@ -1,0 +1,7 @@
+---
+applications:
+- name: bs-pal-tracker-dev
+  path: build/libs/pal-tracker.jar
+  buildpack: java_buildpack
+  env:
+    WELCOME_MESSAGE: "Hello from Cloud Foundry"
