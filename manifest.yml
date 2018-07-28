@@ -1,7 +1,11 @@
 ---
 applications:
-- name: bs-pal-tracker-dev
+- name: pal-tracker-bs
   path: build/libs/pal-tracker.jar
-  buildpack: java_buildpack
+  buildpack: java_buildpack_offline
+  memory: 768M
+  disk_quota: 512M
+  services:
+  - tracker-database
   env:
     WELCOME_MESSAGE: "Hello from Cloud Foundry"

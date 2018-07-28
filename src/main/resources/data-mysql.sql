@@ -1,0 +1,1 @@
+INSERT INTO time_entries VALUES (1,123,456, '2017-01-08',8);

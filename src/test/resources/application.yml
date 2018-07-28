@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pal-tracker
+  datasource:
+    platform: h2
+
+WELCOME_MESSAGE: "Hello from test"

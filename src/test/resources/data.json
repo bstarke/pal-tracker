@@ -1,0 +1,9 @@
+[
+  {
+    "_class" : "io.pivotal.pal.tracker.TimeEntry",
+    "projectId" : 123,
+    "userId" : 456
+    "date" : "2018-04-11",
+    "hours": 8
+  }
+]
