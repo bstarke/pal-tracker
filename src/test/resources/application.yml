@@ -3,5 +3,12 @@ spring:
     name: pal-tracker
   datasource:
     platform: h2
-
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 WELCOME_MESSAGE: "Hello from test"

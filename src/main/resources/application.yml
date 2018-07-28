@@ -3,3 +3,11 @@ spring:
     name: pal-tracker
   datasource:
     platform: mysql
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
